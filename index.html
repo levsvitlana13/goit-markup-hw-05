@@ -508,25 +508,28 @@
 
         <div class="footer-contact-info">
           <form class="footer-form">
-          <div class="footer-form-group">
-            <label class="footer-form-label">
-              <p class="footer-social">Subscribe</p>
-              <div class="footer-email-wrapper">
-                <input 
-                class="footer-email" type="text" 
-                name="Subscribe" 
-                placeholder="E-mail"
-                required />
-              </div>
-            </label>
-          </div>
+            <p class="footer-social">Subscribe</p>
 
-          <div class="footer-button-wrapper">
-            <button class="footer-button" type="submit">
-              <p class="footer-button-text">Subscribe</p>
-            </button>
-          </div>
-        </form>
+            <div class="footer-form-row">
+              <input
+                class="footer-email"
+                type="text"
+                name="Subscribe"
+                placeholder="E-mail"
+                required
+              />
+
+              <button class="footer-button" type="submit">
+                <span class="footer-button-content">
+                  <span class="footer-button-text">Subscribe</span>
+                  <svg class="footer-button-icon" width="24" height="20">
+                    <use href="./images/icons.svg#icon-Frame"></use>
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -606,7 +609,7 @@
                 </span>
 
                 <span class="modal-label">
-                  I accept the terms and conditions of the
+                  I accept the terms and conditions of the&nbsp
                   <a class="privasy-link" href="">Privacy Policy</a>
                 </span>
               </label>

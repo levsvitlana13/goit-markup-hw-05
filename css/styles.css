@@ -528,6 +528,56 @@ address {
   fill: #f4f4fd;
 }
 
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer-form-label {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: rgba(244, 244, 253, 0.7);
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-email-wrapper {
+  position: relative;
+}
+
+.footer-email {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  border: 1px solid #ffffff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: transparent;
+  margin-top: 16px;
+}
+
+.footer-email:focus {
+  outline: 2px solid #31d0aa;
+}
+
+.footer-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 h2 {
   font-weight: 700;
   font-size: 36px;

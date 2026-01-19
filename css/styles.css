@@ -577,8 +577,8 @@ address {
 }
 
 .footer-email:focus {
-  outline: 2px solid #31d0aa;
   outline: none;
+  border-color: #31d0aa;
 }
 
 .footer-contact-info {

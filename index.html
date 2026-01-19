@@ -544,52 +544,63 @@
 
         <form class="modal-form">
           <div class="modal-section">
-            <label class="modal-label">
-              Name
-              <div class="modal-input-wrapper">
-                <svg class="modal-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-person"></use>
-                </svg>
-                <input class="modal-input" type="text" name="name" required />
-              </div>
-            </label>
-          </div>
-
-          <div class="modal-section">
-            <label class="modal-label">
-              Phone
-              <div class="modal-input-wrapper">
-                <svg class="modal-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-                <input class="modal-input" type="tel" name="phone" required />
-              </div>
-            </label>
-          </div>
-
-          <div class="modal-section">
-            <label class="modal-label">
-              Email
-              <div class="modal-input-wrapper">
-                <svg class="modal-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-email"></use>
-                </svg>
-                <input class="modal-input" type="email" name="email" required />
-              </div>
-            </label>
-          </div>
-
-          <div class="modal-section">
-            <label class="modal-label">
-              Comment
-              <textarea
-                class="modal-textarea"
-                name="Comment"
-                rows="6"
-                placeholder="Text input"
+            <label class="modal-label" for="user-name"> Name</label>
+            <div class="modal-input-wrapper">
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+              <input
+                class="modal-input"
+                type="text"
+                name="name"
+                id="user-name"
                 required
-              ></textarea>
-            </label>
+              />
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <label class="modal-label" for="user-tel"> Phone </label>
+            <div class="modal-input-wrapper">
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input
+                class="modal-input"
+                type="tel"
+                name="phone"
+                id="user-tel"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <label class="modal-label" for="user-email"> Email</label>
+            <div class="modal-input-wrapper">
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input
+                class="modal-input"
+                type="email"
+                name="email"
+                id="user-email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <label class="modal-label"> Comment</label>
+            <textarea
+              class="modal-textarea"
+              name="Comment"
+              id="user-comment"
+              rows="6"
+              placeholder="Text input"
+              required
+            ></textarea>
           </div>
 
           <fieldset class="form-group">
